@@ -1,0 +1,5 @@
+valor = input('Digite um valor:')
+print ('So tem numeros?', valor.isnumeric())
+print ('So tem letras?', valor.isalpha())
+print ('É alfanumérico?', valor.isalnum())
+print ('Esta em maiuculas?', valor.isupper())
